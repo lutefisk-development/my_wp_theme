@@ -1,0 +1,16 @@
+{
+    "name": "lutefisk/theme",
+	"description": "Lutefisk-Developemnt WordPress Theme",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"license": "GPL-3.0",
+	"version": "1.0.0",
+	"autoload": {
+		"psr-4": {
+			"Lutefisk\\": "./inc"
+		}
+	},
+    "require": {}
+}
