@@ -14,6 +14,8 @@ final class Init {
 	public static function get_classes() {
 		return [
 			Enqueue::class,
+			Menu::class,
+			Setup::class,
 		];
 	}
 
