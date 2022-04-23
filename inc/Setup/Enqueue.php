@@ -13,9 +13,9 @@ class Enqueue {
 
 	public function lf_enqueue() {
 		// CSS
-		wp_enqueue_style( 'main', get_stylesheet_uri() . '/assets/dist/css/main.css', [], '1.0', 'all' );
+		wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/dist/css/main.css', [], '1.0', 'all' );
 
 		// JS
-		wp_enqueue_style( 'app', get_stylesheet_uri() . '/assets/dist/js/app.js', [], '1.0', true );
+		wp_enqueue_script( 'app', get_template_directory_uri() . '/assets/dist/js/app.js', [], '1.0', true );
 	}
 }
